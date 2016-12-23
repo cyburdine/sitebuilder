@@ -1,0 +1,25 @@
+<div style="text-align:center; margin: 0 auto; width: 100%;">
+SEARCH NOW
+<form action="" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-6446750074859678:5985931549" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" value="<?php echo $site_boldline ; ?>"/>
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+</div>
+
+<div id="cse-search-results"></div>
+<script type="text/javascript">
+  var googleSearchIframeName = "cse-search-results";
+  var googleSearchFormName = "cse-search-box";
+//  var googleSearchFrameWidth = ;
+  var googleSearchDomain = "www.google.com";
+  var googleSearchPath = "/cse";
+</script>
+<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
