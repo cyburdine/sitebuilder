@@ -1,2 +1,8 @@
 ---
 # tasks file for sitebuilder
+- template:
+    src: /root/sitebuilder/roles/builder/templates/index.j2
+    dest: /srv/mytopi.cc/test/{{ item }}.mysite.sub
+    with_items:
+      - mytopi.cc
+      - doinga.business
