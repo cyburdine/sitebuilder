@@ -1,1 +1,7 @@
 ---
+# This playbook creates a bunch of websites
+
+- hosts: all
+
+  roles:
+    - builder
