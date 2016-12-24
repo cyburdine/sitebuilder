@@ -1,7 +1,14 @@
 ---
-# This playbook creates a bunch of websites
 
-- hosts: all
-
-  roles:
-    - builder
+vars:
+  site_description: "this is my site"
+  site_title: "my site title"
+  site_leadline: "this is my site leadline"
+  site_boldline: "this is my site boldline"
+  adsense_client_id: "my adsense client id"
+  ad_slot: "my ad slot"
+  google_analytics_id: "UA-84278976-1"
+# tasks file for sitebuilder
+- template:
+    src: /root/sitebuilder/roles/builder/templates/index.j2
+    dest: /srv/mytopi.cc/test/index.html

@@ -1,0 +1,13 @@
+{% extends "index.j2" %}
+{% block adsense %}
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- autoinsurance topic -->
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="{{ adsense_client_id }}"
+    data-ad-slot="{{ ad_slot }}"
+    data-ad-format="auto"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+{% endblock %}
